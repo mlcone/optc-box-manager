@@ -21,6 +21,6 @@ jobs:
       - name: Restore package & run test
         run: |
           npm ci
-          npm run extract-optcdb
-          npm run extract-shipdb
+          npm run extract-optcdb --incremental
+          npm run extract-shipdb --incremental
           npm test

@@ -1,6 +1,8 @@
 [submodule "src/optcdb"]
 	path = src/optcdb
 	url = https://github.com/2Shankz/optc-db.github.io.git
+	# branch = master
 [submodule "src/optc-ships"]
 	path = src/optc-ships
 	url = https://github.com/blzn50/optc-ships.git
+	# branch = master
